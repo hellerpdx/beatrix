@@ -33,14 +33,22 @@ div {
     z-index: 1;
 }
 
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
 </style>
   <body>
     <h1>A dog on a swing!</h1>
     <div>
     <iframe src="//giphy.com/embed/kVgkoCqqZp9HG" width="480" height="360" frameBorder="0" style="max-width: 100%" class="giphy-embed" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
     </div>  
-    <h1>Designed by Beatrix</h1>
-    <h1>Written by Beatrix</h1>
+    <h1 class="rainbow">Designed by Beatrix</h1>
+    <h1 class="rainbow">Written by Beatrix</h1>
     <p>coded by Daddy</p>
   </body>
 </html>
