@@ -28,14 +28,6 @@ body {
   z-index: -1;
 }
 
-div {
-    margin-left: auto;
-    margin-right: auto;
-    width: 480px;
-    position:relative;
-    z-index: 1;
-}
-
 .rainbow {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
