@@ -15,26 +15,45 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
+      <nav class="navbar navbar-light" style="background-color: red;">
+          <ul class="nav navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="songs.html">Songs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lyrics.html">Lyrics</a>
+            </li>
+          </ul>
+      </nav>
       <div class="container">
-      <h1>This is a dog on a swing</h1>
-          <div class="row">
-            <div class="embed-responsive embed-responsive-16by9 col-xs-12 text-center">
+      <h1 class='display-1 text-xs-center red mt-2'>This is a dog on a swing</h1>
+            <div class="row">
+                <p class='text-xs-center mt-2'>
+                    <audio controls="controls">
+                       <source src="woofilovedogs.m4a" />
+                    </audio>
+                </p>
+            </div>
+          <div class="row mt-1">
+            <div class="embed-responsive embed-responsive-4by3 col-xs-12 text-center">
                   <iframe src="//giphy.com/embed/kVgkoCqqZp9HG" width="480" height="360" frameBorder="0" style="max-width: 100%" class="giphy-embed" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
             </div>
           </div>
-      <h1>Designed by Beatrix</h1>
-      <h1>Written by Beatrix</h1>
-      <h1>Music by Beatrix</h1>
-      <a href="songs.html" title="songs"><p>more Beatrix songs</p></a>
+          <div class="row mt-3">
+              <h3 class='text-xs-center red'>Designed by Beatrix</h3>
+              <h3 class='text-xs-center red'>Written by Beatrix</h3>
+              <h3 class='text-xs-center red'>Music by Beatrix</h3>
+              <a href="songs.html" title="songs"><p class='text-xs-center red'>more Beatrix songs</p></a>
+          </div>
       </div>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
   </body>
-  <audio controls="controls">
-     <source src="woofilovedogs.m4a" />
-  </audio>
 </html>
 
 
